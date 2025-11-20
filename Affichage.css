@@ -115,6 +115,11 @@ details {
 	margin-bottom: 10px;
 }
 
+details > details {
+	padding-top: 10px;
+	margin: 10px 0px 0px 0px;
+}
+
 details:hover:not([open]) {
 	background-color: rgba(128, 128, 128, 0.125);
 }
